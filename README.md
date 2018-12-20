@@ -132,7 +132,7 @@ and several others.
 ## Continuous Integration
 
 [![Continuous Integration status](https://secure.travis-ci.org/clojurewerkz/elastisch.png)](http://travis-ci.org/clojurewerkz/elastisch)
-[![Dependencies Status](http://jarkeeper.com/clojurewerkz/elastisch/status.svg)](http://jarkeeper.com/clojurewerkz/elastisch)
+[![Dependencies Status](https://versions.deps.co/clojurewerkz/elastisch/status.svg)](https://versions.deps.co/clojurewerkz/elastisch)
 
 ## Development
 
@@ -142,7 +142,7 @@ Elastisch needs Elasticsearch running locally (`127.0.0.1`). `ES_CLUSTER_NAME` n
 with the name of the local cluster. To find it out, use
 
 ```
-curl http://localhost:9200/_cluster/nodes
+curl http://localhost:9200/_nodes/cluster
 ```
 
 ### Running Tests
